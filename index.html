@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag & Drop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="groups">
+        <div class="group">
+            <h2>Membros</h2>
+            <div id="team-members">
+                <article class="team-member">
+                    <img src="./imgs/1.jpg" class="team-member-avatar" alt="James Xavier">
+                    <div class="team-member-name">
+                        <h3>James Xavier</h3>
+                        <p>Node.js Developer</p>
+                    </div>
+                </article>
+
+                <article class="team-member">
+                    <img src="./imgs/2.jpg" class="team-member-avatar" alt="David Lee">
+                    <div class="team-member-name">
+                        <h3>David Lee</h3>
+                        <p>React Developer</p>
+                    </div>
+                </article>   
+
+                <article class="team-member">
+                    <img src="./imgs/3.jpg" class="team-member-avatar" alt="John Doe">
+                    <div class="team-member-name">
+                        <h3>John Doe</h3>
+                        <p>Angular Developer</p>
+                    </div>
+                </article>
+
+                <article class="team-member">
+                    <img src="./imgs/4.jpg" class="team-member-avatar" alt="Sarah Johnson">
+                    <div class="team-member-name">
+                        <h3>Sarah Johnson</h3>
+                        <p>Vue.js Developer</p>
+                    </div>
+                </article>
+
+                <article class="team-member">
+                    <img src="./imgs/5.jpg" class="team-member-avatar" alt="Mia Wallace">
+                    <div class="team-member-name">
+                        <h3>Mia Wallace</h3>
+                        <p>Python Developer</p>
+                    </div>
+                </article>
+
+                <article class="team-member">
+                    <img src="./imgs/6.jpg" class="team-member-avatar" alt="Emma Watson">
+                    <div class="team-member-name">
+                        <h3>Emma Watson</h3>
+                        <p>Go Developer</p>
+                    </div>
+                </article>
+        </div>
+    </div>
+    
+    <div class="group">
+        <h2>Meu Time</h2>
+        <div id="my-team">
+            <!-- Drag and drop elements will be added here -->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js">
+    </script>
+    <script src="scripts.js"></script>
+</body>
+</html>
